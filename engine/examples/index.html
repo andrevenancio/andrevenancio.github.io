@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
-        <title>Engine - WebGL2 Renderer - examples</title>
+        <title>engine</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <h1>soon</h1>
+        <nav id="nav">
+            <h1>engine <sup>1.0.0</sup></h1>
+            <a href="basic.html">basic</a>
+        </nav>
+        <iframe id="iframe" src="" frameBorder="0"></iframe>
+        <script>
+            var iframe = document.getElementById('iframe');
+            var examples = [];
+
+            init();
+
+            function init() {
+                // loop through all the <a> tags inside menu
+                var children = document.getElementById('nav').children;
+                for (var i = 0; i < children.length; i++) {
+                    var cur = children[i];
+                    if (cur.tagName === 'A') {
+                        examples.push(cur);
+                        cur.addEventListener('click', handleClick, false);
+                    }
+                }
+
+                window.addEventListener('hashchange', handleHashChange, false);
+                handleHashChange();
+            }
+
+            function handleClick(e) {
+                e.preventDefault();
+                var href = e.target.href;
+                var location = window.location.origin;
+                var ext = '/engine/examples/';
+                var path = href.replace(location + ext, '');
+                var hash = path.replace('.html', '');
+
+                window.location.hash = '#' + hash;
+            }
+
+            function handleHashChange() {
+                var hash = window.location.hash;
+                var path = hash.replace('#', '');
+                if (path !== '') {
+                    resetAll();
+                    select(path);
+                    changeSource(path + '.html');
+                }
+            }
+
+            function changeSource(path) {
+                iframe.src = path;
+            }
+
+            function resetAll() {
+                for (var i = 0; i < examples.length; i++) {
+                    var cur = examples[i];
+                    var className = cur.className;
+                    if (className === 'selected') {
+                        cur.className = '';
+                    }
+                }
+            }
+
+            function select(path) {
+                var children = document.getElementById('nav').children;
+                for (var i = 0; i < children.length; i++) {
+                    if (children[i].href === window.location.origin + '/engine/examples/' + path + '.html') {
+                        children[i].className = 'selected';
+                    }
+                }
+            }
+        </script>
     </body>
 </html>

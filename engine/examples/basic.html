@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>engine | basic example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <script src="js/engine.min.js"></script>
+        <script>
+            var renderer, scene, camera;
+            var model, geometry, material;
+
+            window.addEventListener('resize', resize, false);
+
+            setup();
+            resize();
+            init();
+
+            function setup() {
+                renderer = new engine.Renderer();
+                camera = new engine.cameras.Perspective();
+                scene = new engine.Scene();
+            }
+
+            function init(data) {
+                material = new engine.material.Basic();
+                geometry = new engine.geometry.Box(25, 25, 25);
+                model = new engine.Model(geometry, material);
+                scene.addModel(model);
+
+                update();
+            }
+
+            function resize() {
+                renderer.setSize(window.innerWidth, window.innerHeight);
+            }
+
+            function update() {
+                requestAnimationFrame(update);
+
+                model.rotation.y += 0.01;
+                renderer.render(scene, camera);
+            }
+
+        </script>
+    </body>
+</html>
