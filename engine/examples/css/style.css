@@ -16,15 +16,15 @@ html, body {
 iframe {
     position: absolute;
     top: 0;
-    left: 200px;
-    width: calc(100% - 200px);
+    left: 250px;
+    width: calc(100% - 250px);
     height: 100%;
 }
 
 nav {
     display: inline-block;
     background-color: #222;
-    width: 200px;
+    width: 250px;
     height: 100%;
     padding: 20px;
 }
@@ -40,15 +40,22 @@ nav h1 sup {
 }
 
 nav h2 {
+    font-size: small;
     color: #fff;
     margin: 10px 0;
 }
 
-nav a {
+nav a,
+nav p {
     display: block;
     width: 100%;
-    color: #cccccc;
+    color: #888;
     text-decoration: none;
+    margin: 0;
+}
+
+nav p {
+    text-decoration: line-through;
 }
 
 nav a:hover {
@@ -57,4 +64,9 @@ nav a:hover {
 
 nav a.selected {
     color: #f00;
+}
+
+nav a sup {
+    font-size: x-small;
+    color: #fff;
 }
