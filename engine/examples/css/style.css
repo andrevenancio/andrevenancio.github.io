@@ -3,6 +3,7 @@ html, body {
     width: 100%;
     height: 100%;
     background-color: #000;
+    color: #fff;
     font-size: 14px;
     font-family: sans-serif;
 }
@@ -13,18 +14,25 @@ html, body {
     -webkit-font-smoothing: antialiased;
 }
 
+#logo {
+    position: absolute;
+    top: 50%;
+    left: calc(100% - 200px);
+    transform: translateX(-50%) translateY(-50%);
+}
+
 iframe {
     position: absolute;
     top: 0;
-    left: 250px;
-    width: calc(100% - 250px);
+    left: 200px;
+    width: calc(100% - 200px);
     height: 100%;
 }
 
 nav {
     display: inline-block;
     background-color: #222;
-    width: 250px;
+    width: 200px;
     height: 100%;
     padding: 20px;
 }
@@ -52,6 +60,17 @@ nav p {
     color: #888;
     text-decoration: none;
     margin: 0;
+}
+
+nav sup a {
+    display: initial;
+}
+
+nav h1 {
+    margin: 0;
+}
+nav h2 {
+    display: inline-block;
 }
 
 nav p {

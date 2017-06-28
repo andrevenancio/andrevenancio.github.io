@@ -8,86 +8,41 @@
     </head>
     <body>
         <nav id="nav">
-            <h1>engine <sup>1.0.0</sup></h1>
-            <a href="//codepen.io/andrevenancio/embed/mwqKgv/?theme-id=30219&embed-version=2&editable=true">basic</a>
-            <h2>controls</h2>
-            <a href="//codepen.io/andrevenancio/embed/gRXjLY/?theme-id=30219&embed-version=2&editable=true">orbit</a>
-            <h2>loaders</h2>
-            <p>json</p>
-            <p>obj</p>
-            <h2>materials</h2>
-            <p>basic</p>
-            <p>flat shading</p>
-            <a href="//codepen.io/andrevenancio/embed/WOXKpx/?theme-id=30219&embed-version=2&editable=true">sem</a>
-            <a href="//codepen.io/andrevenancio/embed/XgVMeG/?theme-id=30219&embed-version=2&editable=true">raw</a>
-            <h2>advanced</h2>
-            <a href="//codepen.io/andrevenancio/embed/GEyWKp/?theme-id=30219&embed-version=2&editable=true">render to texture</a>
+            <h1>engine <sup><a href="https://github.com/andrevenancio/engine/releases">1.0.0</a></sup></h1>
+            <h2><a href="https://github.com/andrevenancio/engine">Github</a></h2>
+            <h2><a href="https://andrevenancio.github.io/engine/examples">Examples</a></h2>
+            <h2><a href="https://andrevenancio.github.io/engine/docs/">Docs</a></h2>
+            <br>
+            <br>
         </nav>
+        <img id="logo" src="https://cdn.rawgit.com/andrevenancio/engine/develop/logo.svg" width="60px" />
         <iframe id="iframe" src="" frameBorder="0"></iframe>
         <script>
-            var iframe = document.getElementById('iframe');
-            var examples = [];
-
-            init();
-
-            function init() {
-                // loop through all the <a> tags inside menu
-                var children = document.getElementById('nav').children;
-                for (var i = 0; i < children.length; i++) {
-                    var cur = children[i];
-                    if (cur.tagName === 'A') {
-                        examples.push(cur);
-                        cur.addEventListener('click', handleClick, false);
-                    }
-                }
-
-                window.addEventListener('hashchange', handleHashChange, false);
-                handleHashChange();
-            }
-
-            function handleClick(e) {
-                e.preventDefault();
-                var href = e.target.href;
-                var location = window.location.origin;
-                var ext = '/engine/examples/';
-                var path = href.replace(location + ext, '');
-                var hash = path.replace('.html', '');
-
-                window.location.hash = '#' + hash;
-            }
-
-            function handleHashChange() {
-                var hash = window.location.hash;
-                var path = hash.replace('#', '');
-                if (path !== '') {
-                    resetAll();
-                    select(path);
-                    changeSource(path + '.html');
-                }
-            }
-
-            function changeSource(path) {
-                iframe.src = path;
-            }
-
-            function resetAll() {
-                for (var i = 0; i < examples.length; i++) {
-                    var cur = examples[i];
-                    var className = cur.className;
-                    if (className === 'selected') {
-                        cur.className = '';
-                    }
-                }
-            }
-
-            function select(path) {
-                var children = document.getElementById('nav').children;
-                for (var i = 0; i < children.length; i++) {
-                    if (children[i].href === window.location.origin + '/engine/examples/' + path + '.html') {
-                        children[i].className = 'selected';
-                    }
-                }
-            }
+            var examples = {
+                _default: [
+                    {
+                        pen: 'mwqKgv',
+                        title: 'basic',
+                    },
+                ],
+                controls: [
+                    {
+                        pen: 'gRXjLY',
+                        title: 'orbit',
+                    },
+                ],
+                materials: [
+                    {
+                        pen: 'WOXKpx',
+                        title: 'sem',
+                    },
+                    {
+                        pen: 'XgVMeG',
+                        title: 'raw',
+                    },
+                ],
+            };
         </script>
+        <script src="js/main.min.js"></script>
     </body>
 </html>
