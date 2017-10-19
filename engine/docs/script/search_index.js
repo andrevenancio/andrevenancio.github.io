@@ -1,5 +1,17 @@
 window.esdocSearchIndex = [
   [
+    "engine/src/constants.js~ambient_light",
+    "variable/index.html#static-variable-AMBIENT_LIGHT",
+    "<span>AMBIENT_LIGHT</span> <span class=\"search-result-import-path\">engine/src/constants.js</span>",
+    "variable"
+  ],
+  [
+    "engine/src/helpers/axis.js~axishelper",
+    "class/src/helpers/axis.js~AxisHelper.html",
+    "<span>AxisHelper</span> <span class=\"search-result-import-path\">engine/src/helpers/axis.js</span>",
+    "class"
+  ],
+  [
     "engine/src/constants.js~basic_material",
     "variable/index.html#static-variable-BASIC_MATERIAL",
     "<span>BASIC_MATERIAL</span> <span class=\"search-result-import-path\">engine/src/constants.js</span>",
@@ -18,9 +30,51 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
+    "engine/src/constants.js~default_material",
+    "variable/index.html#static-variable-DEFAULT_MATERIAL",
+    "<span>DEFAULT_MATERIAL</span> <span class=\"search-result-import-path\">engine/src/constants.js</span>",
+    "variable"
+  ],
+  [
+    "engine/src/renderer/chunks/light.js~directional",
+    "variable/index.html#static-variable-DIRECTIONAL",
+    "<span>DIRECTIONAL</span> <span class=\"search-result-import-path\">engine/src/renderer/chunks/light.js</span>",
+    "variable"
+  ],
+  [
+    "engine/src/constants.js~directional_light",
+    "variable/index.html#static-variable-DIRECTIONAL_LIGHT",
+    "<span>DIRECTIONAL_LIGHT</span> <span class=\"search-result-import-path\">engine/src/constants.js</span>",
+    "variable"
+  ],
+  [
+    "engine/src/material/default.js~default",
+    "class/src/material/default.js~Default.html",
+    "<span>Default</span> <span class=\"search-result-import-path\">engine/src/material/default.js</span>",
+    "class"
+  ],
+  [
+    "engine/src/helpers/lights/directional.js~directionalhelper",
+    "class/src/helpers/lights/directional.js~DirectionalHelper.html",
+    "<span>DirectionalHelper</span> <span class=\"search-result-import-path\">engine/src/helpers/lights/directional.js</span>",
+    "class"
+  ],
+  [
+    "engine/src/lights/directional.js~directionallight",
+    "class/src/lights/directional.js~DirectionalLight.html",
+    "<span>DirectionalLight</span> <span class=\"search-result-import-path\">engine/src/lights/directional.js</span>",
+    "class"
+  ],
+  [
     "engine/src/constants.js~flatshading_material",
     "variable/index.html#static-variable-FLATSHADING_MATERIAL",
     "<span>FLATSHADING_MATERIAL</span> <span class=\"search-result-import-path\">engine/src/constants.js</span>",
+    "variable"
+  ],
+  [
+    "engine/src/renderer/chunks/fog.js~fog",
+    "variable/index.html#static-variable-FOG",
+    "<span>FOG</span> <span class=\"search-result-import-path\">engine/src/renderer/chunks/fog.js</span>",
     "variable"
   ],
   [
@@ -36,6 +90,24 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
+    "engine/src/session.js~gl_lines",
+    "function/index.html#static-function-GL_LINES",
+    "<span>GL_LINES</span> <span class=\"search-result-import-path\">engine/src/session.js</span>",
+    "function"
+  ],
+  [
+    "engine/src/session.js~gl_points",
+    "function/index.html#static-function-GL_POINTS",
+    "<span>GL_POINTS</span> <span class=\"search-result-import-path\">engine/src/session.js</span>",
+    "function"
+  ],
+  [
+    "engine/src/session.js~gl_triangles",
+    "function/index.html#static-function-GL_TRIANGLES",
+    "<span>GL_TRIANGLES</span> <span class=\"search-result-import-path\">engine/src/session.js</span>",
+    "function"
+  ],
+  [
     "engine/src/geometry/icosahedron.js~icosahedron",
     "class/src/geometry/icosahedron.js~Icosahedron.html",
     "<span>Icosahedron</span> <span class=\"search-result-import-path\">engine/src/geometry/icosahedron.js</span>",
@@ -46,6 +118,18 @@ window.esdocSearchIndex = [
     "class/src/loaders/json.js~JsonLoader.html",
     "<span>JsonLoader</span> <span class=\"search-result-import-path\">engine/src/loaders/json.js</span>",
     "class"
+  ],
+  [
+    "engine/src/geometry/line.js~line",
+    "class/src/geometry/line.js~Line.html",
+    "<span>Line</span> <span class=\"search-result-import-path\">engine/src/geometry/line.js</span>",
+    "class"
+  ],
+  [
+    "engine/src/constants.js~max_directional",
+    "variable/index.html#static-variable-MAX_DIRECTIONAL",
+    "<span>MAX_DIRECTIONAL</span> <span class=\"search-result-import-path\">engine/src/constants.js</span>",
+    "variable"
   ],
   [
     "engine/src/core/material.js~material",
@@ -75,6 +159,36 @@ window.esdocSearchIndex = [
     "engine/src/core/object3.js~object3",
     "class/src/core/object3.js~Object3.html",
     "<span>Object3</span> <span class=\"search-result-import-path\">engine/src/core/object3.js</span>",
+    "class"
+  ],
+  [
+    "engine/src/controls/orbit.js~orbitcontrols",
+    "class/src/controls/orbit.js~OrbitControls.html",
+    "<span>OrbitControls</span> <span class=\"search-result-import-path\">engine/src/controls/orbit.js</span>",
+    "class"
+  ],
+  [
+    "engine/src/cameras/orthographic.js~orthographiccamera",
+    "class/src/cameras/orthographic.js~OrthographicCamera.html",
+    "<span>OrthographicCamera</span> <span class=\"search-result-import-path\">engine/src/cameras/orthographic.js</span>",
+    "class"
+  ],
+  [
+    "engine/src/renderer/chunks/light.js~point",
+    "variable/index.html#static-variable-POINT",
+    "<span>POINT</span> <span class=\"search-result-import-path\">engine/src/renderer/chunks/light.js</span>",
+    "variable"
+  ],
+  [
+    "engine/src/constants.js~point_light",
+    "variable/index.html#static-variable-POINT_LIGHT",
+    "<span>POINT_LIGHT</span> <span class=\"search-result-import-path\">engine/src/constants.js</span>",
+    "variable"
+  ],
+  [
+    "engine/src/cameras/perspective.js~perspectivecamera",
+    "class/src/cameras/perspective.js~PerspectiveCamera.html",
+    "<span>PerspectiveCamera</span> <span class=\"search-result-import-path\">engine/src/cameras/perspective.js</span>",
     "class"
   ],
   [
@@ -126,6 +240,12 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
+    "engine/src/renderer/chunks/ubo.js~ubo",
+    "variable/index.html#static-variable-UBO",
+    "<span>UBO</span> <span class=\"search-result-import-path\">engine/src/renderer/chunks/ubo.js</span>",
+    "variable"
+  ],
+  [
     "engine/src/renderer/helpers/ubo.js~uniformbuffer",
     "class/src/renderer/helpers/ubo.js~UniformBuffer.html",
     "<span>UniformBuffer</span> <span class=\"search-result-import-path\">engine/src/renderer/helpers/ubo.js</span>",
@@ -142,6 +262,12 @@ window.esdocSearchIndex = [
     "class/src/core/vector3.js~Vector3.html",
     "<span>Vector3</span> <span class=\"search-result-import-path\">engine/src/core/vector3.js</span>",
     "class"
+  ],
+  [
+    "engine/src/renderer/chunks/noise.js~ashima",
+    "function/index.html#static-function-ashima",
+    "<span>ashima</span> <span class=\"search-result-import-path\">engine/src/renderer/chunks/noise.js</span>",
+    "function"
   ],
   [
     "engine/src/utils/math.js~clamp",
@@ -166,12 +292,6 @@ window.esdocSearchIndex = [
     "function/index.html#static-function-createProgram",
     "<span>createProgram</span> <span class=\"search-result-import-path\">engine/src/renderer/helpers/program.js</span>",
     "function"
-  ],
-  [
-    "engine/src/session.js~env",
-    "variable/index.html#static-variable-env",
-    "<span>env</span> <span class=\"search-result-import-path\">engine/src/session.js</span>",
-    "variable"
   ],
   [
     "engine/src/utils/geometry.js~flatten",
@@ -240,6 +360,12 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
+    "engine/src/utils/geometry.js~subdivide",
+    "function/index.html#static-function-subdivide",
+    "<span>subdivide</span> <span class=\"search-result-import-path\">engine/src/utils/geometry.js</span>",
+    "function"
+  ],
+  [
     "engine/src/utils/geometry.js~unflatten",
     "function/index.html#static-function-unflatten",
     "<span>unflatten</span> <span class=\"search-result-import-path\">engine/src/utils/geometry.js</span>",
@@ -252,333 +378,285 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~array",
+    "src/.external-ecmascript.js~array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
-    "BuiltinExternal/ECMAScriptExternal.js~Array",
+    "src/.external-ecmascript.js~Array",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~arraybuffer",
+    "src/.external-ecmascript.js~arraybuffer",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
-    "BuiltinExternal/ECMAScriptExternal.js~ArrayBuffer",
+    "src/.external-ecmascript.js~ArrayBuffer",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~boolean",
+    "src/.external-ecmascript.js~boolean",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
-    "BuiltinExternal/ECMAScriptExternal.js~Boolean",
+    "src/.external-ecmascript.js~Boolean",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~dataview",
+    "src/.external-ecmascript.js~dataview",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
-    "BuiltinExternal/ECMAScriptExternal.js~DataView",
+    "src/.external-ecmascript.js~DataView",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~date",
+    "src/.external-ecmascript.js~date",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
-    "BuiltinExternal/ECMAScriptExternal.js~Date",
+    "src/.external-ecmascript.js~Date",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~error",
+    "src/.external-ecmascript.js~error",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
-    "BuiltinExternal/ECMAScriptExternal.js~Error",
+    "src/.external-ecmascript.js~Error",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~evalerror",
+    "src/.external-ecmascript.js~evalerror",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
-    "BuiltinExternal/ECMAScriptExternal.js~EvalError",
+    "src/.external-ecmascript.js~EvalError",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~float32array",
+    "src/.external-ecmascript.js~float32array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
-    "BuiltinExternal/ECMAScriptExternal.js~Float32Array",
+    "src/.external-ecmascript.js~Float32Array",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~float64array",
+    "src/.external-ecmascript.js~float64array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
-    "BuiltinExternal/ECMAScriptExternal.js~Float64Array",
+    "src/.external-ecmascript.js~Float64Array",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~function",
+    "src/.external-ecmascript.js~function",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
-    "BuiltinExternal/ECMAScriptExternal.js~Function",
+    "src/.external-ecmascript.js~Function",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~generator",
+    "src/.external-ecmascript.js~generator",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
-    "BuiltinExternal/ECMAScriptExternal.js~Generator",
+    "src/.external-ecmascript.js~Generator",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~generatorfunction",
+    "src/.external-ecmascript.js~generatorfunction",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
-    "BuiltinExternal/ECMAScriptExternal.js~GeneratorFunction",
+    "src/.external-ecmascript.js~GeneratorFunction",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~infinity",
+    "src/.external-ecmascript.js~infinity",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
-    "BuiltinExternal/ECMAScriptExternal.js~Infinity",
+    "src/.external-ecmascript.js~Infinity",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~int16array",
+    "src/.external-ecmascript.js~int16array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
-    "BuiltinExternal/ECMAScriptExternal.js~Int16Array",
+    "src/.external-ecmascript.js~Int16Array",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~int32array",
+    "src/.external-ecmascript.js~int32array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
-    "BuiltinExternal/ECMAScriptExternal.js~Int32Array",
+    "src/.external-ecmascript.js~Int32Array",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~int8array",
+    "src/.external-ecmascript.js~int8array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
-    "BuiltinExternal/ECMAScriptExternal.js~Int8Array",
+    "src/.external-ecmascript.js~Int8Array",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~internalerror",
+    "src/.external-ecmascript.js~internalerror",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
-    "BuiltinExternal/ECMAScriptExternal.js~InternalError",
+    "src/.external-ecmascript.js~InternalError",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~json",
+    "src/.external-ecmascript.js~json",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
-    "BuiltinExternal/ECMAScriptExternal.js~JSON",
+    "src/.external-ecmascript.js~JSON",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~map",
+    "src/.external-ecmascript.js~map",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
-    "BuiltinExternal/ECMAScriptExternal.js~Map",
+    "src/.external-ecmascript.js~Map",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~nan",
+    "src/.external-ecmascript.js~nan",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
-    "BuiltinExternal/ECMAScriptExternal.js~NaN",
+    "src/.external-ecmascript.js~NaN",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~number",
+    "src/.external-ecmascript.js~number",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
-    "BuiltinExternal/ECMAScriptExternal.js~Number",
+    "src/.external-ecmascript.js~Number",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~object",
+    "src/.external-ecmascript.js~object",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
-    "BuiltinExternal/ECMAScriptExternal.js~Object",
+    "src/.external-ecmascript.js~Object",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~promise",
+    "src/.external-ecmascript.js~promise",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
-    "BuiltinExternal/ECMAScriptExternal.js~Promise",
+    "src/.external-ecmascript.js~Promise",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~proxy",
+    "src/.external-ecmascript.js~proxy",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
-    "BuiltinExternal/ECMAScriptExternal.js~Proxy",
+    "src/.external-ecmascript.js~Proxy",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~rangeerror",
+    "src/.external-ecmascript.js~rangeerror",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
-    "BuiltinExternal/ECMAScriptExternal.js~RangeError",
+    "src/.external-ecmascript.js~RangeError",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~referenceerror",
+    "src/.external-ecmascript.js~referenceerror",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
-    "BuiltinExternal/ECMAScriptExternal.js~ReferenceError",
+    "src/.external-ecmascript.js~ReferenceError",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~reflect",
+    "src/.external-ecmascript.js~reflect",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
-    "BuiltinExternal/ECMAScriptExternal.js~Reflect",
+    "src/.external-ecmascript.js~Reflect",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~regexp",
+    "src/.external-ecmascript.js~regexp",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
-    "BuiltinExternal/ECMAScriptExternal.js~RegExp",
+    "src/.external-ecmascript.js~RegExp",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~set",
+    "src/.external-ecmascript.js~set",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
-    "BuiltinExternal/ECMAScriptExternal.js~Set",
+    "src/.external-ecmascript.js~Set",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~string",
+    "src/.external-ecmascript.js~string",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
-    "BuiltinExternal/ECMAScriptExternal.js~String",
+    "src/.external-ecmascript.js~String",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~symbol",
+    "src/.external-ecmascript.js~symbol",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
-    "BuiltinExternal/ECMAScriptExternal.js~Symbol",
+    "src/.external-ecmascript.js~Symbol",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~syntaxerror",
+    "src/.external-ecmascript.js~syntaxerror",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
-    "BuiltinExternal/ECMAScriptExternal.js~SyntaxError",
+    "src/.external-ecmascript.js~SyntaxError",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~typeerror",
+    "src/.external-ecmascript.js~typeerror",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
-    "BuiltinExternal/ECMAScriptExternal.js~TypeError",
+    "src/.external-ecmascript.js~TypeError",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~urierror",
+    "src/.external-ecmascript.js~urierror",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
-    "BuiltinExternal/ECMAScriptExternal.js~URIError",
+    "src/.external-ecmascript.js~URIError",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~uint16array",
+    "src/.external-ecmascript.js~uint16array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
-    "BuiltinExternal/ECMAScriptExternal.js~Uint16Array",
+    "src/.external-ecmascript.js~Uint16Array",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~uint32array",
+    "src/.external-ecmascript.js~uint32array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
-    "BuiltinExternal/ECMAScriptExternal.js~Uint32Array",
+    "src/.external-ecmascript.js~Uint32Array",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~uint8array",
+    "src/.external-ecmascript.js~uint8array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
-    "BuiltinExternal/ECMAScriptExternal.js~Uint8Array",
+    "src/.external-ecmascript.js~Uint8Array",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~uint8clampedarray",
+    "src/.external-ecmascript.js~uint8clampedarray",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
-    "BuiltinExternal/ECMAScriptExternal.js~Uint8ClampedArray",
+    "src/.external-ecmascript.js~Uint8ClampedArray",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~weakmap",
+    "src/.external-ecmascript.js~weakmap",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
-    "BuiltinExternal/ECMAScriptExternal.js~WeakMap",
+    "src/.external-ecmascript.js~WeakMap",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~weakset",
+    "src/.external-ecmascript.js~weakset",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
-    "BuiltinExternal/ECMAScriptExternal.js~WeakSet",
+    "src/.external-ecmascript.js~WeakSet",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~boolean",
+    "src/.external-ecmascript.js~boolean",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
-    "BuiltinExternal/ECMAScriptExternal.js~boolean",
+    "src/.external-ecmascript.js~boolean",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~function",
+    "src/.external-ecmascript.js~function",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
-    "BuiltinExternal/ECMAScriptExternal.js~function",
+    "src/.external-ecmascript.js~function",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~null",
+    "src/.external-ecmascript.js~null",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
-    "BuiltinExternal/ECMAScriptExternal.js~null",
+    "src/.external-ecmascript.js~null",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~number",
+    "src/.external-ecmascript.js~number",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
-    "BuiltinExternal/ECMAScriptExternal.js~number",
+    "src/.external-ecmascript.js~number",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~object",
+    "src/.external-ecmascript.js~object",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
-    "BuiltinExternal/ECMAScriptExternal.js~object",
+    "src/.external-ecmascript.js~object",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~string",
+    "src/.external-ecmascript.js~string",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
-    "BuiltinExternal/ECMAScriptExternal.js~string",
+    "src/.external-ecmascript.js~string",
     "external"
   ],
   [
-    "builtinexternal/ecmascriptexternal.js~undefined",
+    "src/.external-ecmascript.js~undefined",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
-    "BuiltinExternal/ECMAScriptExternal.js~undefined",
-    "external"
-  ],
-  [
-    "builtinexternal/webapiexternal.js~audiocontext",
-    "https://developer.mozilla.org/en/docs/Web/API/AudioContext",
-    "BuiltinExternal/WebAPIExternal.js~AudioContext",
-    "external"
-  ],
-  [
-    "builtinexternal/webapiexternal.js~canvasrenderingcontext2d",
-    "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D",
-    "BuiltinExternal/WebAPIExternal.js~CanvasRenderingContext2D",
-    "external"
-  ],
-  [
-    "builtinexternal/webapiexternal.js~documentfragment",
-    "https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment",
-    "BuiltinExternal/WebAPIExternal.js~DocumentFragment",
-    "external"
-  ],
-  [
-    "builtinexternal/webapiexternal.js~element",
-    "https://developer.mozilla.org/en-US/docs/Web/API/Element",
-    "BuiltinExternal/WebAPIExternal.js~Element",
-    "external"
-  ],
-  [
-    "builtinexternal/webapiexternal.js~event",
-    "https://developer.mozilla.org/en-US/docs/Web/API/Event",
-    "BuiltinExternal/WebAPIExternal.js~Event",
-    "external"
-  ],
-  [
-    "builtinexternal/webapiexternal.js~node",
-    "https://developer.mozilla.org/en-US/docs/Web/API/Node",
-    "BuiltinExternal/WebAPIExternal.js~Node",
-    "external"
-  ],
-  [
-    "builtinexternal/webapiexternal.js~nodelist",
-    "https://developer.mozilla.org/en-US/docs/Web/API/NodeList",
-    "BuiltinExternal/WebAPIExternal.js~NodeList",
-    "external"
-  ],
-  [
-    "builtinexternal/webapiexternal.js~xmlhttprequest",
-    "https://developer.mozilla.org/en/docs/Web/API/XMLHttpRequest",
-    "BuiltinExternal/WebAPIExternal.js~XMLHttpRequest",
+    "src/.external-ecmascript.js~undefined",
     "external"
   ],
   [
@@ -586,6 +664,90 @@ window.esdocSearchIndex = [
     "file/src/cameras/index.js.html",
     "src/cameras/index.js",
     "file"
+  ],
+  [
+    "src/cameras/orthographic.js",
+    "file/src/cameras/orthographic.js.html",
+    "src/cameras/orthographic.js",
+    "file"
+  ],
+  [
+    "src/cameras/orthographic.js~orthographiccamera#constructor",
+    "class/src/cameras/orthographic.js~OrthographicCamera.html#instance-constructor-constructor",
+    "src/cameras/orthographic.js~OrthographicCamera#constructor",
+    "method"
+  ],
+  [
+    "src/cameras/orthographic.js~orthographiccamera#lookat",
+    "class/src/cameras/orthographic.js~OrthographicCamera.html#instance-method-lookAt",
+    "src/cameras/orthographic.js~OrthographicCamera#lookAt",
+    "method"
+  ],
+  [
+    "src/cameras/orthographic.js~orthographiccamera#projectionmatrix",
+    "class/src/cameras/orthographic.js~OrthographicCamera.html#instance-member-projectionMatrix",
+    "src/cameras/orthographic.js~OrthographicCamera#projectionMatrix",
+    "member"
+  ],
+  [
+    "src/cameras/orthographic.js~orthographiccamera#target",
+    "class/src/cameras/orthographic.js~OrthographicCamera.html#instance-member-target",
+    "src/cameras/orthographic.js~OrthographicCamera#target",
+    "member"
+  ],
+  [
+    "src/cameras/orthographic.js~orthographiccamera#up",
+    "class/src/cameras/orthographic.js~OrthographicCamera.html#instance-member-up",
+    "src/cameras/orthographic.js~OrthographicCamera#up",
+    "member"
+  ],
+  [
+    "src/cameras/orthographic.js~orthographiccamera#updatecameramatrix",
+    "class/src/cameras/orthographic.js~OrthographicCamera.html#instance-method-updateCameraMatrix",
+    "src/cameras/orthographic.js~OrthographicCamera#updateCameraMatrix",
+    "method"
+  ],
+  [
+    "src/cameras/perspective.js",
+    "file/src/cameras/perspective.js.html",
+    "src/cameras/perspective.js",
+    "file"
+  ],
+  [
+    "src/cameras/perspective.js~perspectivecamera#constructor",
+    "class/src/cameras/perspective.js~PerspectiveCamera.html#instance-constructor-constructor",
+    "src/cameras/perspective.js~PerspectiveCamera#constructor",
+    "method"
+  ],
+  [
+    "src/cameras/perspective.js~perspectivecamera#lookat",
+    "class/src/cameras/perspective.js~PerspectiveCamera.html#instance-method-lookAt",
+    "src/cameras/perspective.js~PerspectiveCamera#lookAt",
+    "method"
+  ],
+  [
+    "src/cameras/perspective.js~perspectivecamera#projectionmatrix",
+    "class/src/cameras/perspective.js~PerspectiveCamera.html#instance-member-projectionMatrix",
+    "src/cameras/perspective.js~PerspectiveCamera#projectionMatrix",
+    "member"
+  ],
+  [
+    "src/cameras/perspective.js~perspectivecamera#target",
+    "class/src/cameras/perspective.js~PerspectiveCamera.html#instance-member-target",
+    "src/cameras/perspective.js~PerspectiveCamera#target",
+    "member"
+  ],
+  [
+    "src/cameras/perspective.js~perspectivecamera#up",
+    "class/src/cameras/perspective.js~PerspectiveCamera.html#instance-member-up",
+    "src/cameras/perspective.js~PerspectiveCamera#up",
+    "member"
+  ],
+  [
+    "src/cameras/perspective.js~perspectivecamera#updatecameramatrix",
+    "class/src/cameras/perspective.js~PerspectiveCamera.html#instance-method-updateCameraMatrix",
+    "src/cameras/perspective.js~PerspectiveCamera#updateCameraMatrix",
+    "method"
   ],
   [
     "src/constants.js",
@@ -598,6 +760,162 @@ window.esdocSearchIndex = [
     "file/src/controls/index.js.html",
     "src/controls/index.js",
     "file"
+  ],
+  [
+    "src/controls/orbit.js",
+    "file/src/controls/orbit.js.html",
+    "src/controls/orbit.js",
+    "file"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#camera",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-camera",
+    "src/controls/orbit.js~OrbitControls#camera",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#constructor",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-constructor-constructor",
+    "src/controls/orbit.js~OrbitControls#constructor",
+    "method"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#disable",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-method-disable",
+    "src/controls/orbit.js~OrbitControls#disable",
+    "method"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#domelement",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-domElement",
+    "src/controls/orbit.js~OrbitControls#domElement",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#enable",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-method-enable",
+    "src/controls/orbit.js~OrbitControls#enable",
+    "method"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#height",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-height",
+    "src/controls/orbit.js~OrbitControls#height",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#isdown",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-isDown",
+    "src/controls/orbit.js~OrbitControls#isDown",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#onend",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-onEnd",
+    "src/controls/orbit.js~OrbitControls#onEnd",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#onmove",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-onMove",
+    "src/controls/orbit.js~OrbitControls#onMove",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#onstart",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-onStart",
+    "src/controls/orbit.js~OrbitControls#onStart",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#onwheel",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-onWheel",
+    "src/controls/orbit.js~OrbitControls#onWheel",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#ox",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-ox",
+    "src/controls/orbit.js~OrbitControls#ox",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#oy",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-oy",
+    "src/controls/orbit.js~OrbitControls#oy",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#radius",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-radius",
+    "src/controls/orbit.js~OrbitControls#radius",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#rotationspeed",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-rotationSpeed",
+    "src/controls/orbit.js~OrbitControls#rotationSpeed",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#rx",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-rx",
+    "src/controls/orbit.js~OrbitControls#rx",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#ry",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-ry",
+    "src/controls/orbit.js~OrbitControls#ry",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#startx",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-startX",
+    "src/controls/orbit.js~OrbitControls#startX",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#starty",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-startY",
+    "src/controls/orbit.js~OrbitControls#startY",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#update",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-method-update",
+    "src/controls/orbit.js~OrbitControls#update",
+    "method"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#width",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-width",
+    "src/controls/orbit.js~OrbitControls#width",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#zoom",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-method-zoom",
+    "src/controls/orbit.js~OrbitControls#zoom",
+    "method"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#zoommax",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-zoomMax",
+    "src/controls/orbit.js~OrbitControls#zoomMax",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#zoommin",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-zoomMin",
+    "src/controls/orbit.js~OrbitControls#zoomMin",
+    "member"
+  ],
+  [
+    "src/controls/orbit.js~orbitcontrols#zoomspeed",
+    "class/src/controls/orbit.js~OrbitControls.html#instance-member-zoomSpeed",
+    "src/controls/orbit.js~OrbitControls#zoomSpeed",
+    "member"
   ],
   [
     "src/core/material.js",
@@ -645,6 +963,12 @@ window.esdocSearchIndex = [
     "src/core/material.js~material#fragment",
     "class/src/core/material.js~Material.html#instance-member-fragment",
     "src/core/material.js~Material#fragment",
+    "member"
+  ],
+  [
+    "src/core/material.js~material#glmode",
+    "class/src/core/material.js~Material.html#instance-member-glMode",
+    "src/core/material.js~Material#glMode",
     "member"
   ],
   [
@@ -762,6 +1086,12 @@ window.esdocSearchIndex = [
     "member"
   ],
   [
+    "src/core/model.js~model#positionsneedupdate",
+    "class/src/core/model.js~Model.html#instance-member-positionsNeedUpdate",
+    "src/core/model.js~Model#positionsNeedUpdate",
+    "member"
+  ],
+  [
     "src/core/model.js~model#unbind",
     "class/src/core/model.js~Model.html#instance-method-unbind",
     "src/core/model.js~Model#unbind",
@@ -798,6 +1128,18 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/core/object3.js~object3#lookatmatrix",
+    "class/src/core/object3.js~Object3.html#instance-member-lookAtMatrix",
+    "src/core/object3.js~Object3#lookAtMatrix",
+    "member"
+  ],
+  [
+    "src/core/object3.js~object3#looktotarget",
+    "class/src/core/object3.js~Object3.html#instance-member-lookToTarget",
+    "src/core/object3.js~Object3#lookToTarget",
+    "member"
+  ],
+  [
     "src/core/object3.js~object3#modelmatrix",
     "class/src/core/object3.js~Object3.html#instance-member-modelMatrix",
     "src/core/object3.js~Object3#modelMatrix",
@@ -813,6 +1155,24 @@ window.esdocSearchIndex = [
     "src/core/object3.js~object3#parentmatrix",
     "class/src/core/object3.js~Object3.html#instance-member-parentMatrix",
     "src/core/object3.js~Object3#parentMatrix",
+    "member"
+  ],
+  [
+    "src/core/object3.js~object3#polygonoffset",
+    "class/src/core/object3.js~Object3.html#instance-member-polygonOffset",
+    "src/core/object3.js~Object3#polygonOffset",
+    "member"
+  ],
+  [
+    "src/core/object3.js~object3#polygonoffsetfactor",
+    "class/src/core/object3.js~Object3.html#instance-member-polygonOffsetFactor",
+    "src/core/object3.js~Object3#polygonOffsetFactor",
+    "member"
+  ],
+  [
+    "src/core/object3.js~object3#polygonoffsetunits",
+    "class/src/core/object3.js~Object3.html#instance-member-polygonOffsetUnits",
+    "src/core/object3.js~Object3#polygonOffsetUnits",
     "member"
   ],
   [
@@ -846,9 +1206,21 @@ window.esdocSearchIndex = [
     "member"
   ],
   [
+    "src/core/object3.js~object3#target",
+    "class/src/core/object3.js~Object3.html#instance-member-target",
+    "src/core/object3.js~Object3#target",
+    "member"
+  ],
+  [
     "src/core/object3.js~object3#uid",
     "class/src/core/object3.js~Object3.html#instance-member-uid",
     "src/core/object3.js~Object3#uid",
+    "member"
+  ],
+  [
+    "src/core/object3.js~object3#up",
+    "class/src/core/object3.js~Object3.html#instance-member-up",
+    "src/core/object3.js~Object3#up",
     "member"
   ],
   [
@@ -864,16 +1236,40 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/core/scene.js~scene#addlight",
+    "class/src/core/scene.js~Scene.html#instance-method-addLight",
+    "src/core/scene.js~Scene#addLight",
+    "method"
+  ],
+  [
+    "src/core/scene.js~scene#ambient",
+    "class/src/core/scene.js~Scene.html#instance-member-ambient",
+    "src/core/scene.js~Scene#ambient",
+    "member"
+  ],
+  [
     "src/core/scene.js~scene#constructor",
     "class/src/core/scene.js~Scene.html#instance-constructor-constructor",
     "src/core/scene.js~Scene#constructor",
     "method"
   ],
   [
-    "src/core/scene.js~scene#lights",
-    "class/src/core/scene.js~Scene.html#instance-member-lights",
-    "src/core/scene.js~Scene#lights",
+    "src/core/scene.js~scene#directional",
+    "class/src/core/scene.js~Scene.html#instance-member-directional",
+    "src/core/scene.js~Scene#directional",
     "member"
+  ],
+  [
+    "src/core/scene.js~scene#point",
+    "class/src/core/scene.js~Scene.html#instance-member-point",
+    "src/core/scene.js~Scene#point",
+    "member"
+  ],
+  [
+    "src/core/scene.js~scene#removelight",
+    "class/src/core/scene.js~Scene.html#instance-method-removeLight",
+    "src/core/scene.js~Scene#removeLight",
+    "method"
   ],
   [
     "src/core/scene.js~scene#traverse",
@@ -928,6 +1324,12 @@ window.esdocSearchIndex = [
     "class/src/core/vector3.js~Vector3.html#instance-member-data",
     "src/core/vector3.js~Vector3#data",
     "member"
+  ],
+  [
+    "src/core/vector3.js~vector3#set",
+    "class/src/core/vector3.js~Vector3.html#instance-method-set",
+    "src/core/vector3.js~Vector3#set",
+    "method"
   ],
   [
     "src/core/vector3.js~vector3#x",
@@ -1026,6 +1428,18 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/geometry/line.js",
+    "file/src/geometry/line.js.html",
+    "src/geometry/line.js",
+    "file"
+  ],
+  [
+    "src/geometry/line.js~line#constructor",
+    "class/src/geometry/line.js~Line.html#instance-constructor-constructor",
+    "src/geometry/line.js~Line#constructor",
+    "method"
+  ],
+  [
     "src/geometry/plane.js",
     "file/src/geometry/plane.js.html",
     "src/geometry/plane.js",
@@ -1038,9 +1452,63 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/helpers/axis.js",
+    "file/src/helpers/axis.js.html",
+    "src/helpers/axis.js",
+    "file"
+  ],
+  [
+    "src/helpers/axis.js~axishelper#constructor",
+    "class/src/helpers/axis.js~AxisHelper.html#instance-constructor-constructor",
+    "src/helpers/axis.js~AxisHelper#constructor",
+    "method"
+  ],
+  [
     "src/helpers/index.js",
     "file/src/helpers/index.js.html",
     "src/helpers/index.js",
+    "file"
+  ],
+  [
+    "src/helpers/lights/directional.js",
+    "file/src/helpers/lights/directional.js.html",
+    "src/helpers/lights/directional.js",
+    "file"
+  ],
+  [
+    "src/helpers/lights/directional.js~directionalhelper#constructor",
+    "class/src/helpers/lights/directional.js~DirectionalHelper.html#instance-constructor-constructor",
+    "src/helpers/lights/directional.js~DirectionalHelper#constructor",
+    "method"
+  ],
+  [
+    "src/helpers/lights/directional.js~directionalhelper#looktotarget",
+    "class/src/helpers/lights/directional.js~DirectionalHelper.html#instance-member-lookToTarget",
+    "src/helpers/lights/directional.js~DirectionalHelper#lookToTarget",
+    "member"
+  ],
+  [
+    "src/helpers/lights/directional.js~directionalhelper#positionsneedupdate",
+    "class/src/helpers/lights/directional.js~DirectionalHelper.html#instance-member-positionsNeedUpdate",
+    "src/helpers/lights/directional.js~DirectionalHelper#positionsNeedUpdate",
+    "member"
+  ],
+  [
+    "src/helpers/lights/directional.js~directionalhelper#reference",
+    "class/src/helpers/lights/directional.js~DirectionalHelper.html#instance-member-reference",
+    "src/helpers/lights/directional.js~DirectionalHelper#reference",
+    "member"
+  ],
+  [
+    "src/helpers/lights/directional.js~directionalhelper#update",
+    "class/src/helpers/lights/directional.js~DirectionalHelper.html#instance-method-update",
+    "src/helpers/lights/directional.js~DirectionalHelper#update",
+    "method"
+  ],
+  [
+    "src/helpers/lights/index.js",
+    "file/src/helpers/lights/index.js.html",
+    "src/helpers/lights/index.js",
     "file"
   ],
   [
@@ -1056,15 +1524,87 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
-    "src/helpers/normal.js~normalhelper#draw",
-    "class/src/helpers/normal.js~NormalHelper.html#instance-method-draw",
-    "src/helpers/normal.js~NormalHelper#draw",
+    "src/helpers/normal.js~normalhelper#looktotarget",
+    "class/src/helpers/normal.js~NormalHelper.html#instance-member-lookToTarget",
+    "src/helpers/normal.js~NormalHelper#lookToTarget",
+    "member"
+  ],
+  [
+    "src/helpers/normal.js~normalhelper#reference",
+    "class/src/helpers/normal.js~NormalHelper.html#instance-member-reference",
+    "src/helpers/normal.js~NormalHelper#reference",
+    "member"
+  ],
+  [
+    "src/helpers/normal.js~normalhelper#update",
+    "class/src/helpers/normal.js~NormalHelper.html#instance-method-update",
+    "src/helpers/normal.js~NormalHelper#update",
     "method"
   ],
   [
     "src/index.js",
     "file/src/index.js.html",
     "src/index.js",
+    "file"
+  ],
+  [
+    "src/lights/directional.js",
+    "file/src/lights/directional.js.html",
+    "src/lights/directional.js",
+    "file"
+  ],
+  [
+    "src/lights/directional.js~directionallight#_color",
+    "class/src/lights/directional.js~DirectionalLight.html#instance-member-_color",
+    "src/lights/directional.js~DirectionalLight#_color",
+    "member"
+  ],
+  [
+    "src/lights/directional.js~directionallight#color",
+    "class/src/lights/directional.js~DirectionalLight.html#instance-get-color",
+    "src/lights/directional.js~DirectionalLight#color",
+    "member"
+  ],
+  [
+    "src/lights/directional.js~directionallight#color",
+    "class/src/lights/directional.js~DirectionalLight.html#instance-set-color",
+    "src/lights/directional.js~DirectionalLight#color",
+    "member"
+  ],
+  [
+    "src/lights/directional.js~directionallight#constructor",
+    "class/src/lights/directional.js~DirectionalLight.html#instance-constructor-constructor",
+    "src/lights/directional.js~DirectionalLight#constructor",
+    "method"
+  ],
+  [
+    "src/lights/directional.js~directionallight#destroy",
+    "class/src/lights/directional.js~DirectionalLight.html#instance-method-destroy",
+    "src/lights/directional.js~DirectionalLight#destroy",
+    "method"
+  ],
+  [
+    "src/lights/directional.js~directionallight#guicolor",
+    "class/src/lights/directional.js~DirectionalLight.html#instance-member-guiColor",
+    "src/lights/directional.js~DirectionalLight#guiColor",
+    "member"
+  ],
+  [
+    "src/lights/directional.js~directionallight#intensity",
+    "class/src/lights/directional.js~DirectionalLight.html#instance-member-intensity",
+    "src/lights/directional.js~DirectionalLight#intensity",
+    "member"
+  ],
+  [
+    "src/lights/directional.js~directionallight#type",
+    "class/src/lights/directional.js~DirectionalLight.html#instance-member-type",
+    "src/lights/directional.js~DirectionalLight#type",
+    "member"
+  ],
+  [
+    "src/lights/index.js",
+    "file/src/lights/index.js.html",
+    "src/lights/index.js",
     "file"
   ],
   [
@@ -1155,6 +1695,42 @@ window.esdocSearchIndex = [
     "src/material/basic.js~basic#vertex",
     "class/src/material/basic.js~Basic.html#instance-member-vertex",
     "src/material/basic.js~Basic#vertex",
+    "member"
+  ],
+  [
+    "src/material/default.js",
+    "file/src/material/default.js.html",
+    "src/material/default.js",
+    "file"
+  ],
+  [
+    "src/material/default.js~default#constructor",
+    "class/src/material/default.js~Default.html#instance-constructor-constructor",
+    "src/material/default.js~Default#constructor",
+    "method"
+  ],
+  [
+    "src/material/default.js~default#fragment",
+    "class/src/material/default.js~Default.html#instance-member-fragment",
+    "src/material/default.js~Default#fragment",
+    "member"
+  ],
+  [
+    "src/material/default.js~default#map",
+    "class/src/material/default.js~Default.html#instance-member-map",
+    "src/material/default.js~Default#map",
+    "member"
+  ],
+  [
+    "src/material/default.js~default#type",
+    "class/src/material/default.js~Default.html#instance-member-type",
+    "src/material/default.js~Default#type",
+    "member"
+  ],
+  [
+    "src/material/default.js~default#vertex",
+    "class/src/material/default.js~Default.html#instance-member-vertex",
+    "src/material/default.js~Default#vertex",
     "member"
   ],
   [
@@ -1266,6 +1842,36 @@ window.esdocSearchIndex = [
     "member"
   ],
   [
+    "src/renderer/chunks/fog.js",
+    "file/src/renderer/chunks/fog.js.html",
+    "src/renderer/chunks/fog.js",
+    "file"
+  ],
+  [
+    "src/renderer/chunks/index.js",
+    "file/src/renderer/chunks/index.js.html",
+    "src/renderer/chunks/index.js",
+    "file"
+  ],
+  [
+    "src/renderer/chunks/light.js",
+    "file/src/renderer/chunks/light.js.html",
+    "src/renderer/chunks/light.js",
+    "file"
+  ],
+  [
+    "src/renderer/chunks/noise.js",
+    "file/src/renderer/chunks/noise.js.html",
+    "src/renderer/chunks/noise.js",
+    "file"
+  ],
+  [
+    "src/renderer/chunks/ubo.js",
+    "file/src/renderer/chunks/ubo.js.html",
+    "src/renderer/chunks/ubo.js",
+    "file"
+  ],
+  [
     "src/renderer/helpers/program.js",
     "file/src/renderer/helpers/program.js.html",
     "src/renderer/helpers/program.js",
@@ -1276,6 +1882,12 @@ window.esdocSearchIndex = [
     "file/src/renderer/helpers/ubo.js.html",
     "src/renderer/helpers/ubo.js",
     "file"
+  ],
+  [
+    "src/renderer/helpers/ubo.js~uniformbuffer#bind",
+    "class/src/renderer/helpers/ubo.js~UniformBuffer.html#instance-method-bind",
+    "src/renderer/helpers/ubo.js~UniformBuffer#bind",
+    "method"
   ],
   [
     "src/renderer/helpers/ubo.js~uniformbuffer#boundlocation",
@@ -1362,10 +1974,22 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/renderer/index.js~renderer#directional",
+    "class/src/renderer/index.js~Renderer.html#instance-member-directional",
+    "src/renderer/index.js~Renderer#directional",
+    "member"
+  ],
+  [
     "src/renderer/index.js~renderer#draw",
     "class/src/renderer/index.js~Renderer.html#instance-method-draw",
     "src/renderer/index.js~Renderer#draw",
     "method"
+  ],
+  [
+    "src/renderer/index.js~renderer#fog",
+    "class/src/renderer/index.js~Renderer.html#instance-member-fog",
+    "src/renderer/index.js~Renderer#fog",
+    "member"
   ],
   [
     "src/renderer/index.js~renderer#framebuffer",
@@ -1402,6 +2026,12 @@ window.esdocSearchIndex = [
     "class/src/renderer/index.js~Renderer.html#instance-member-renderBuffer",
     "src/renderer/index.js~Renderer#renderBuffer",
     "member"
+  ],
+  [
+    "src/renderer/index.js~renderer#renderobject",
+    "class/src/renderer/index.js~Renderer.html#instance-method-renderObject",
+    "src/renderer/index.js~Renderer#renderObject",
+    "method"
   ],
   [
     "src/renderer/index.js~renderer#rtt",
